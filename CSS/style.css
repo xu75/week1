@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: SF Pro Text,Microsoft JhengHei;
+}
+
+.container .all {
+  padding-left: 360px;
+  padding-right: 360px;
+}
+
+.container h1 {
+  font-size: 80px;
+  line-height: 1.5;
+  border-bottom: 3px solid black;
+  padding-top: 40px;
+  padding-bottom: 24px;
+}
+
+.container .img-header {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.container h2 {
+  font-size: 32px;
+  border-bottom: 1px solid black;
+  padding-bottom: 8px;
+  line-height: 1.5;
+}
+
+.container h2 span {
+  font-size: 24px;
+  color: #A00404;
+}
+
+.container h3 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.container p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.container .content1 .h2-mid {
+  margin-top: 64px;
+}
+
+.container .content1 .li-top {
+  margin: 16px 0 24px 0;
+}
+
+.container .content1 .li-mid {
+  margin: 16px 0;
+}
+
+.container .content2 {
+  color: #FFFFFF;
+  background-color: #415165;
+  text-align: center;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+.container .content2 span {
+  color: #FFFFFF;
+}
+
+.container .content2 h2 {
+  border-bottom: 1px solid white;
+  padding-bottom: 8px;
+  margin-bottom: 40px;
+  margin-left: 462px;
+  margin-right: 462px;
+}
+
+.container .content2 ul {
+  border-left: 1px solid white;
+  display: inline-block;
+  text-align: start;
+  padding-left: 24px;
+}
+
+.container .content2 ul li {
+  padding-bottom: 8px;
+}
+
+.container .content3 .h3-mid {
+  padding-top: 24px;
+}
+
+.container .content3 ul {
+  padding: 16px 0 80px 0;
+}
+
+.container .content3 li {
+  border-left: 1px solid #96A9C4;
+  padding-left: 24px;
+  margin-left: 24px;
+}
+
+.container .footer {
+  background-color: #415165;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.container .footer :hover {
+  border-radius: 50%;
+}
+
+.container .footer h2 {
+  border-bottom: 1px solid white;
+  padding-top: 24px;
+  margin-left: 360px;
+  margin-right: 360px;
+}
+
+.container .footer span {
+  color: #FFFFFF;
+}
+
+.container .footer ul {
+  padding: 24px 0 40px 0;
+}
+
+.container .footer .li-footer {
+  margin-top: 16px;
+}
+
+.container .footer .img-footer {
+  margin: 0 24px;
+}
+
+.container .footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.container .footer a :hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+/*# sourceMappingURL=style.css.map */
